@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
- "build": "npx parcel build src/index.html --no-cache --public-url /project1/",
+  "build": "npx parcel build src/index.html --no-cache --public-url /project1",
   "lint": "eslint .",
   "test": "jest",
   "deploy": "npm run build && gh-pages -d dist",
@@ -23,8 +23,6 @@
   },
   "dependencies": {
     "lodash": "^4.18.1"
-  },
-  "engines": {
-  "node": ">=20.19.0"
-}
+  }
+  
 }
