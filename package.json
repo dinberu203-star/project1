@@ -6,7 +6,7 @@
   "build": "npx parcel build src/index.html --no-cache --public-url /your-repo-name",
   "lint": "eslint .",
   "test": "jest",
-  "deploy": "npm run build",
+  "deploy": "npm run build && gh-pages -d dist",
   "ci": "npm run lint && npm run test && npm run deploy"
 },
   "devDependencies": {
