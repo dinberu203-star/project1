@@ -1,4 +1,3 @@
-import _ from 'lodash'
 const shuffle = require('./shuffle')
 
 function rand (max) {
