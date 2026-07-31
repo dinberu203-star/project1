@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-  "build": "npx parcel build src/index.html --public-url /project1",
+  "build": "npx parcel build src/index.html --no-cache --public-url /project1",
   "lint": "npx eslint src/.",
   "test": "npx jest",
   "deploy": "npm run build && npx gh-pages -d dist",
