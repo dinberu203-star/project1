@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-  "build": "npx parcel build src/index.html --no-cache --public-url /project1",
-  "lint": "eslint .",
+  "lint": "eslint src/.",
   "test": "jest",
+  "build": "parcel build src/index.html --no-cache --public-url /project1",
   "deploy": "npm run build && gh-pages -d dist",
   "ci": "npm run lint && npm run test && npm run deploy"
 },
